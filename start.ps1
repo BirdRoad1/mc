@@ -27,7 +27,5 @@ $params = "-Dos.name=`"Windows 10`" -Dos.version=10.0 -XX:HeapDumpPath=MojangTri
 
 $params = $params.Split(' ')
 
-& '.\a.exe' $params
-
-#& '.\zulu\bin\java.exe' $params
+& '.\zulu\bin\java.exe' $params
 pause
